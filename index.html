@@ -5,21 +5,223 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="https://kit.fontawesome.com/789948b23d.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/main.css">
-  </head>
 </head>
 <body>
-  <h1>Demo</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur inventore. Repudiandae commodi, cum, officiis fugit nam aspernatur corporis odio voluptate itaque delectus eius ipsam molestiae et, obcaecati minus?</p>
-
-  <h2>Colors Demo</h2>
-  <div class="darktext">
-    <p class="crimson">Color 1</p>
-    <p class="cream">Color 2</p>
-    <p class="green">Color 3</p>
-    <p class="gold">Color 4</p>
+  <!-- NAVIGATION BAR WITH RESPONSIVE TOGGLE BUTTON STARTS HERE -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/nav-logo.png" alt="nav logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Art Tutorials</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Geek News</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Writing Tutorials</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">User Experience</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Digital Art</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Exhibitions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Original Art</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Featured Artists</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Inktober</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Fan Art</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>             
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVIGATION BAR WITH TOGGLE BUTTON ENDS HERE -->
+  <!-- HOME PAGE STARTS HERE -->
+  <img src="images/main-logo.png" class="img-fluid mx-auto d-block py-8" alt="main page logo">
+  <!-- HOME PAGE ENDS HERE -->
+  <!-- ABOUT ME STARTS HERE -->
+  <div class="text-center text-light py-6">
+  <h1 class="py-2">ABOUT ME</h1>
+    <img src="images/about-me.png" class="img-fluid mx-auto d-block p-5" alt="profile picture">
+    <h2 class="py-4">Hi! My name is Martin!</h2>
+    <p class="py-4">I'm a web developer and artist living in Canada.
+      Currently studying the Interactive Media Design  program that started at the beginning of 2022. I've always loved creating and working with technical projects which you can see in my resume following  the link:
+    </p>
+    <div class="d-grid gap-2 col-6 mx-auto py-4">
+      <button class="btn btn-primary" type="button">Click Here to see my Resume</button>
+    </div>
   </div>
+  <!-- ABOUT ME ENDS HERE -->
+  <!-- MY WORK STARTS HERE -->
+  <div class=" mywork text-center text-light py-6">
+    <h1>MY WORK</h1>
+    <div class="mywork1">
+      <h3 class="pt-5">Web Project</h3>
+      <h2 class="py-1">Project 1</h2>
+      <h4 class="py-1">Software 1, Software 2, Software 3</h4>
+      <img src="images/portfolio/project1-sepia.png" class="img-fluid mx-auto d-block py-2 px-5" alt="project 1">
+      <p class="mx-5 my-3 px-3 py-3 bg-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facere recusandae, non at optio adipisci, a ab atque consequuntur voluptates numquam excepturi accusantium voluptatibus inventore totam veniam laudantium dolor ratione.</p>
+    </div>
+    <div class="mywork2">
+      <h3>Web Project</h3>
+      <h2>Project 2</h2>
+      <h4>Software 1, Software 2, Software 3</h4>
+      <img src="images/portfolio/project2-sepia.png" class="img-fluid mx-auto d-block py-2 px-5" alt="project 2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facere recusandae, non at optio adipisci, a ab atque consequuntur voluptates numquam excepturi accusantium voluptatibus inventore totam veniam laudantium dolor ratione.</p>
+    </div>
+    <div class="mywork3">
+      <h3>Web Project</h3>
+      <h2>Project 3</h2>
+      <h4>Software 1, Software 2, Software 3</h4>
+      <img src="images/portfolio/project3-sepia.png" class="img-fluid mx-auto d-block py-2 px-5" alt="project 3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facere recusandae, non at optio adipisci, a ab atque consequuntur voluptates numquam excepturi accusantium voluptatibus inventore totam veniam laudantium dolor ratione.</p>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" type="button">Click Here to see my Portfolio</button>
+    </div>
+  </div>
+  <!-- MY WORK ENDS HERE -->
+  <!-- MY SKILLS STARTS HERE -->
+  <div class="myskills text-center text-light py-8">
+    <h1>MY SKILLS</h1>
+    <div class="skill1">
+      <img src="images/github-icon.png" class="img-fluid mx-auto d-block" alt="github icon">
+      <h3>GITHUB</h3>
+    </div>
+    <div class="skill2">
+      <img src="images/adobe-icon.png" class="img-fluid mx-auto d-block" alt="adobe icon">
+      <h3>ADOBE CREATIVE CLOUD</h3>
+    </div>
+    <div class="skill3">
+      <img src="images/illustration-icon.png" class="img-fluid mx-auto d-block" alt="illustration icon">
+      <h3>ILLUSTRATION</h3>
+    </div>
+    <div class="skill4">
+      <img src="images/html-logo.png" class="img-fluid mx-auto d-block" alt="html icon">
+      <h3>HTML5</h3>
+    </div>
+    <div class="skill5">
+      <img src="images/css-logo.png" class="img-fluid mx-auto d-block" alt="css icon">
+      <h3>CSS3</h3>
+    </div>
+  </div>
+  <!-- MY SKILLS ENDS HERE -->
+  <!-- CONTACT STARTS HERE -->
+  <div class="contact-me text-center text-light py-8">
+    <h1>CONTACT</h1>
+    <h2>How can we work together?</h2>
+    <p>I'm interested to work with you, so please click if you wish to get in touch</p>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" type="button">Check the form</button>
+    </div>
+    <!-- FORM STRUCTURE STARTS -->
+    <section class="mb-4 text-light">
+      <h2 class="h1-responsive font-weight-bold text-center my-4">A wild &#60;form&#62; appears!</h2>
+      <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            
+            <div class="row">
+              
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="name" class="">Your name</label>
+                  <input type="text" id="name" name="name" class="form-control">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <label for="email" class="">Your email</label>
+                  <input type="text" id="email" name="email" class="form-control">
+                </div>
+              </div>
+            
+            </div>
+            <div class="row">
+
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <label for="subject" class="">Subject</label>
+                  <input type="text" id="subject" name="subject" class="form-control">
+                </div>
+              </div>
+            
+            </div>
+            <div class="row">
+
+              <div class="col-md-12">
+                <div class="md-form">
+                  <label for="message">Your message</label>
+                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                </div>
+              </div>
+            
+            </div>
+
+          </form>
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Finish</a>
+          </div>
+          <div class="status"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- FORM STRUCTURE ENDS -->
+    <img src="images/form-background.png" class="img-fluid mx-auto d-block" alt="form background">
+  </div>
+  <!-- CONTACT ENDS HERE -->
+  <!-- FOOTER STARTS HERE -->
+  <footer class="bg-success text-center text-light py-5">
+    <img src="images/footer-logo.png" class="img-fluid mx-auto d-block" alt="footer logo">
+    <h4>SOCIALS</h4>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-square-pinterest"></i>
+    <i class="fa-brands fa-square-youtube"></i>
+    <i class="fa-brands fa-square-github"></i>
+    <i class="fa-brands fa-codepen"></i>
+    <p>Copyright, 2022. Crimson Studio by Martin Cortes. All rights reserved.</p>
+  </footer>
+  <!-- FOOTER ENDS HERE -->
+
+
   
 </body>
 </html>
