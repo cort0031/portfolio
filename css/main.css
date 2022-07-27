@@ -17,3 +17,13 @@ body{
 .darktext{
     color: black;
 }
+
+.py-8 {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+.py-6 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
