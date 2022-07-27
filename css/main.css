@@ -18,12 +18,54 @@ body{
     color: black;
 }
 
-.py-8 {
+
+.py-6{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+.py-7{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+.py-8{
     padding-top: 15rem;
     padding-bottom: 15rem;
   }
 
-.py-6 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+.p-6{
+    padding: 8.5rem;
+}
+
+.p-7{
+    padding: 10rem;
+}
+
+.p-8{
+    padding: 15rem;
+}
+
+.px-6{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
+
+.px-7{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+.px-8{
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+.mx-8{
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+.redmargin{
+    margin: 70px;
+    border: 1px solid red;
+}
