@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'goodbrush';
+  src: url(fonts/goodbrush.ttf);
+}
+
 body{
     background-color: black;
 }
@@ -67,5 +72,52 @@ body{
   }
 .redmargin{
     margin: 70px;
-    border: 1px solid red;
+    border: 1px solid #760E0E;
+}
+h1{
+  font-family: goodbrush;
+  font-size: 2.25rem;
+  color: #DFD9BB;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  color: #DFD9BB;
+  font-size: 1.25rem;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  color: #DFD9BB;
+  font-size: 0.75rem;
+}
+.stylebtn{
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #DFD9BB;
+  background-color: #760E0E;
+  border-color: #760E0E;
+}
+h3{
+  color: #DFD9BB;
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+h4{
+  color: #DFD9BB;
+  font-weight: lighter;
+  font-size: 0.5rem;
+}
+.bg-paragraph{
+  background-color: #344434;
+}
+.form-control{
+  border: #344434;
+}
+.formtext-color{
+  color: #DFD9BB;
+  font-weight: lighter;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem
+}
+i{
+  color: #DFD9BB;
 }
