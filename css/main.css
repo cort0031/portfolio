@@ -175,3 +175,10 @@ a{
 .at-card h4{
   color: #DFD9BB;
 }
+.lightbg p{
+  color: #344434;
+  background-color: #DFD9BB;
+}
+.lightbg{
+  background-color: #DFD9BB;
+}
