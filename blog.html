@@ -19,7 +19,7 @@
   <!-- NAVIGATION BAR WITH RESPONSIVE TOGGLE BUTTON STARTS HERE -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-black navcolor">
     <div class="container mx-auto">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="images/nav-logo.png" alt="nav logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,46 +28,52 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active px-5" aria-current="page" href="#">Home</a>
+            <a class="nav-link active px-5" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle px-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
             <ul class="dropdown-menu menucolor">
-              <li><a class="dropdown-item" href="#">Art Tutorials</a></li>
+              <li><a class="dropdown-item" href="blog.html">Blog Page</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Geek News</a></li>
+              <li><a class="dropdown-item" href="blog-art-tutorials.html">Art Tutorials</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="blog-geek-news.html">Geek News</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Writing Tutorials</a></li>
+              <li><a class="dropdown-item" href="blog-web-development.html">Web Development</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="blog-writing-tutorials.html">Writing Tutorials</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle px-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
             <ul class="dropdown-menu menucolor">
-              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="portfolio.html">Portfolio Page</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">User Experience</a></li>
+              <li><a class="dropdown-item" href="portfolio-web-development.html">Web Development</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Digital Art</a></li>
+              <li><a class="dropdown-item" href="portfolio-user-experience.html">User Experience</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Exhibitions</a></li>
+              <li><a class="dropdown-item" href="portfolio-digital-art.html">Digital Art</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="portfolio-exhibitions.html">Exhibitions</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle px-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</a>
             <ul class="dropdown-menu menucolor">
-              <li><a class="dropdown-item" href="#">Original Art</a></li>
+              <li><a class="dropdown-item" href="gallery.html">Gallery Page</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Featured Artists</a></li>
+              <li><a class="dropdown-item" href="gallery-original-art.html">Original Art</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Inktober</a></li>
+              <li><a class="dropdown-item" href="gallery-featured-artists.html">Featured Artists</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Fan Art</a></li>
+              <li><a class="dropdown-item" href="gallery-inktober.html">Inktober</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="gallery-fan-art.html">Fan Art</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-5" href="#">Contact</a>
+            <a class="nav-link px-5" href="#contact_link">Contact</a>
           </li>             
         </ul>
       </div>
@@ -76,51 +82,54 @@
   <!-- NAVIGATION BAR WITH TOGGLE BUTTON ENDS HERE -->
 
   <!-- BLOG BANNER STARTS HERE -->
-  <h1 class="text-center">BLOG</h1>
-  <img src="images/blog/blog-banner.png" class="img-fluid mx-auto d-block" alt="blog banner">
+  <div class="banner py-8">
+    <h1 class="text-center banner-text">BLOG</h1>
+    <img src="images/blog/blog-banner.png" class="img-fluid mx-auto d-block" alt="blog banner">
+  </div>
+  
   <!-- BLOG BANNER ENDS HERE -->
 
   <!-- ART TUTORIAL CARD STARTS HERE -->
   <div class="text-center text-light py-6">
-  <h2 class="py-2 bg-paragraph">ART TUTORIALS</h2>
-    <img src="images/blog/bat.png" class="img-fluid mx-auto d-block p-5" alt="art tutorials thumbnail">
+  <h1 class="py-2 bg-paragraph"><a href="blog-art-tutorials.html">ART TUTORIALS</a></h1>
+    <a href="blog-art-tutorials.html"><img src="images/blog/bat.png" class="img-fluid mx-auto d-block p-5" alt="art tutorials thumbnail"></a>
     <p class="py-4 px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nisi non cum aspernatur sit beatae illo aliquam, quia dignissimos nemo voluptate! Doloremque, inventore! Deserunt, molestiae placeat magni architecto doloribus dolores.
     </p>
     <div class="d-grid gap-2 col-10 mx-auto py-4">
-      <button class="btn btn-primary stylebtn" type="button">Read Art Tutorials</button>
+      <button class="btn btn-primary stylebtn" type="button"><a href="blog-art-tutorials.html">Read Art Tutorials</a></button>
     </div>
   </div>
   <!-- ART TUTORIAL CARD ENDS HERE -->
 
   <!-- GEEK NEWS CARD STARTS HERE -->
   <div class="text-center text-light py-6">
-    <h2 class="py-2 bg-paragraph">GEEK NEWS</h2>
-    <img src="images/blog/bgn.png" class="img-fluid mx-auto d-block p-5" alt="geek news thumbnail">
+    <h1 class="py-2 bg-paragraph"><a href="blog-geek-news.html">GEEK NEWS</a></h1>
+    <a href="blog-geek-news.html"><img src="images/blog/bgn.png" class="img-fluid mx-auto d-block p-5" alt="geek news thumbnail"></a>
     <p class="py-4 px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nisi non cum aspernatur sit beatae illo aliquam, quia dignissimos nemo voluptate! Doloremque, inventore! Deserunt, molestiae placeat magni architecto doloribus dolores.</p>
     <div class="d-grid gap-2 col-10 mx-auto py-4">
-      <button class="btn btn-primary stylebtn" type="button">Read Art Tutorials</button>
+      <button class="btn btn-primary stylebtn" type="button"><a href="blog-geek-news.html">Read Geek News</a></button>
     </div>
   </div>
   <!-- GEEK NEWS CARD ENDS HERE -->
 
   <!-- WEB DEVELOPMENT CARD STARTS HERE -->
   <div class="text-center text-light py-6">
-    <h2 class="py-2 bg-paragraph">WEB DEVELOPMENT</h2>
-    <img src="images/blog/bwd.png" class="img-fluid mx-auto d-block p-5" alt="web development thumbnail">
+    <h1 class="py-2 bg-paragraph"><a href="blog-web-development.html">WEB DEVELOPMENT</a></h1>
+    <a href="blog-web-development.html"><img src="images/blog/bwd.png" class="img-fluid mx-auto d-block p-5" alt="web development thumbnail"></a>
     <p class="py-4 px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nisi non cum aspernatur sit beatae illo aliquam, quia dignissimos nemo voluptate! Doloremque, inventore! Deserunt, molestiae placeat magni architecto doloribus dolores.</p>
     <div class="d-grid gap-2 col-10 mx-auto py-4">
-      <button class="btn btn-primary stylebtn" type="button">Read Art Tutorials</button>
+      <button class="btn btn-primary stylebtn" type="button"><a href="blog-web-development.html"></a>Read Web Tips</button>
     </div>
   </div>
   <!-- WEB DEVELOPMENT CARD ENDS HERE -->
 
   <!-- WRITING TIPS CARD STARTS HERE -->
   <div class="text-center text-light py-6">
-    <h2 class="py-2 bg-paragraph">WRITING TIPS</h2>
-    <img src="images/blog/bwt.png" class="img-fluid mx-auto d-block p-5" alt="writing tips thumbnail">
+    <h1 class="py-2 bg-paragraph"><a href="blog-writing-tutorials.html">WRITING TIPS</a></h1>
+    <a href="blog-writing-tutorials.html"><img src="images/blog/bwt.png" class="img-fluid mx-auto d-block p-5" alt="writing tips thumbnail"></a>
     <p class="py-4 px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nisi non cum aspernatur sit beatae illo aliquam, quia dignissimos nemo voluptate! Doloremque, inventore! Deserunt, molestiae placeat magni architecto doloribus dolores.</p>
     <div class="d-grid gap-2 col-10 mx-auto py-4">
-      <button class="btn btn-primary stylebtn" type="button">Read Art Tutorials</button>
+      <button class="btn btn-primary stylebtn" type="button"><a href="blog-writing-tutorials.html">Read Writing Tips</a></button>
     </div>
   </div>
   <!-- WRITING TIPS CARD ENDS HERE -->
@@ -131,7 +140,7 @@
 
   <!-- FOOTER STARTS HERE -->
   <footer class="bg-paragraph text-center text-light py-5">
-    <img src="images/footer-logo.png" class="img-fluid mx-auto d-block p-5 pb-2" alt="footer logo">
+    <a href="index.html"><img src="images/footer-logo.png" class="img-fluid mx-auto d-block p-5 pb-2" alt="footer logo"></a>
     <h3 class="p-1">SOCIALS</h3>
     <div class="social-media">
       <div class="socials1">
