@@ -189,30 +189,30 @@ a{
 
 
 
-/* ----------CELLPHONES (from 1px to 576px)---------- 
+/* ----------CELLPHONES (from 1px to 576px)----------  */
 @media (min-width: 576px) {
   body{
     background-color: #760E0E;
   }
 }
 
-/* ----------TABLETS (from 577px to 768px)---------- 
+/* ----------TABLETS (from 577px to 768px)----------  */
 @media (min-width: 768px) {
   body{
     background-color: gray;
   }
 }
 
-/* ----------SMALL LAPTOPS (from 769px to 992px)---------- 
+/* ----------SMALL LAPTOPS (from 769px to 992px)----------  */
 @media (min-width: 992px) {
   body {
     background-color: #344434;
   }
 }
 
-/* ----------BIG LAPTOPS AND DESKTOP (from 993px---------- 
+/* ----------BIG LAPTOPS AND DESKTOP (from 993px and on)----------  */
 @media (min-width:1200px) {
   body{
     background-color: #DFD9BB;
   }
-} */
+}
