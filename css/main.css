@@ -2,7 +2,7 @@
   font-family: 'goodbrush';
   src: url(fonts/goodbrush.ttf);
 }
-
+/* ::root and use variables */
 body{
     background-color: black;
 }
@@ -73,7 +73,7 @@ body{
 .redmargin{
     margin: 70px;
     border: 1px solid #760E0E;
-}
+  }
 h1{
   font-family: goodbrush;
   font-size: 2.25rem;
@@ -182,3 +182,37 @@ a{
 .lightbg{
   background-color: #DFD9BB;
 }
+
+/* a{
+  color: var(--bs-link-color);
+} */
+
+
+
+/* ----------CELLPHONES (from 1px to 576px)---------- 
+@media (min-width: 576px) {
+  body{
+    background-color: #760E0E;
+  }
+}
+
+/* ----------TABLETS (from 577px to 768px)---------- 
+@media (min-width: 768px) {
+  body{
+    background-color: gray;
+  }
+}
+
+/* ----------SMALL LAPTOPS (from 769px to 992px)---------- 
+@media (min-width: 992px) {
+  body {
+    background-color: #344434;
+  }
+}
+
+/* ----------BIG LAPTOPS AND DESKTOP (from 993px---------- 
+@media (min-width:1200px) {
+  body{
+    background-color: #DFD9BB;
+  }
+} */
