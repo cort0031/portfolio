@@ -99,12 +99,12 @@ p{
 h3{
   color: #DFD9BB;
   font-weight: lighter;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 h4{
   color: #DFD9BB;
   font-weight: lighter;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 }
 .bg-paragraph{
   background-color: #344434;
@@ -190,27 +190,49 @@ a{
 
 
 /* ----------CELLPHONES (from 1px to 576px)----------  */
+
+/* ----------TABLETS (from 577px to 768px)----------  */
 @media (min-width: 576px) {
   body{
     background-color: #760E0E;
   }
+  .footer img{
+    scale: 50%;
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.25rem;
+  }
+  .stylebtn{
+    font-size: 1.25rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 1.25rem;
 }
 
-/* ----------TABLETS (from 577px to 768px)----------  */
+/* ----------SMALL LAPTOPS (from 769px to 992px)----------  */
 @media (min-width: 768px) {
   body{
     background-color: gray;
   }
 }
 
-/* ----------SMALL LAPTOPS (from 769px to 992px)----------  */
+/* ----------BIG LAPTOPS AND DESKTOP (from 993px to 1200px)----------  */
 @media (min-width: 992px) {
   body {
     background-color: #344434;
   }
 }
 
-/* ----------BIG LAPTOPS AND DESKTOP (from 993px and on)----------  */
+/* ----------DESKTOPS, LAPTOPS AND BIG SCREENS (from 1200px and on)----------  */
 @media (min-width:1200px) {
   body{
     background-color: #DFD9BB;
