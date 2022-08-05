@@ -216,6 +216,10 @@ a{
   }
   h4{
     font-size: 1.25rem;
+  }
+  .footer p{
+    font-size: 1rem;
+  }
 }
 
 /* ----------SMALL LAPTOPS (from 769px to 992px)----------  */
