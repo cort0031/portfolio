@@ -183,6 +183,7 @@ a{
   background-color: #DFD9BB;
 }
 
+
 /* a{
   color: var(--bs-link-color);
 } */
@@ -194,7 +195,7 @@ a{
 /* ----------TABLETS (from 577px to 768px)----------  */
 @media (min-width: 576px) {
   body{
-    background-color: #760E0E;
+    /* background-color: indigo; */
   }
   .footer img{
     scale: 50%;
@@ -220,25 +221,32 @@ a{
   .footer p{
     font-size: 1rem;
   }
+  .form-text label{
+    font-size: 1.1rem;
+  }
 }
 
 /* ----------SMALL LAPTOPS (from 769px to 992px)----------  */
 @media (min-width: 768px) {
   body{
-    background-color: gray;
+    /* background-color: gray; */
+  }
+  .form-text label{
+    font-size: 1.5rem;
   }
 }
 
 /* ----------BIG LAPTOPS AND DESKTOP (from 993px to 1200px)----------  */
 @media (min-width: 992px) {
   body {
-    background-color: #344434;
+    /* background-color: #344434; */
   }
 }
 
 /* ----------DESKTOPS, LAPTOPS AND BIG SCREENS (from 1200px and on)----------  */
+
 @media (min-width:1200px) {
   body{
-    background-color: #DFD9BB;
+    /* background-color: slategrey; */
   }
 }
