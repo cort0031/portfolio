@@ -316,4 +316,22 @@ a{
   .gallery-sample{
     max-width: 1200px;
   }
+  .main-logo h1{
+    transform: scale(2);
+  }
+  .main-logo h4{
+    transform: scale(1.5);
+  }
+  .main-logo img{
+    animation: ani2 5s ease-out forwards;
+  }
+  .main-logo img{
+    opacity: 0;
+    margin: 0;
+  }
+  @keyframes ani2{
+    100%{
+      opacity: 1;
+    }
+  }
 }
