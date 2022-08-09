@@ -329,4 +329,7 @@ a{
   .btn-container{
     max-width: 600px;
   }
+  .gallery-sample{
+    max-width: 1200px;
+  }
 }
