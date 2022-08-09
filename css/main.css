@@ -23,6 +23,10 @@ body{
     color: black;
 }
 
+.blog-cards{
+   background-color: #DFD9BB;
+}
+
 
 .py-6{
     padding-top: 5rem;
@@ -64,6 +68,10 @@ body{
 .px-8{
     padding-left: 15rem;
     padding-right: 15rem;
+  }
+
+  .pb-8{
+    padding-bottom: 15rem;
   }
 
 .mx-8{
@@ -161,19 +169,38 @@ a{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.at-card p{
+.blog-cards p{
   background-color: #DFD9BB;
   color: #344434;
+  font-weight: lighter;
 }
-.at-card h2{
-  color: #DFD9BB;
-  font-weight: bold
+.card-header h2,a{
+  color:#344434;
+  
 }
-.at-card h5{
+.index-header h2,a{
+  color:#DFD9BB;
+}
+
+.blog-container h2{
+  color: #344434;
+  font-weight: bolder;
+}
+.blog-container h5{
   color: #760E0E;
 }
-.at-card h4{
-  color: #DFD9BB;
+.blog-container h4{
+  color: #760E0E;
+  font-weight: lighter;
+}
+.card-button a{
+  color:#DFD9BB;
+}
+.blog-cards h5{
+  color: #760E0E;
+}
+.blog-cards h4{
+  color: #760E0E
 }
 .lightbg p{
   color: #344434;
@@ -183,6 +210,16 @@ a{
   background-color: #DFD9BB;
 }
 
+.blog-container{
+  background-color:#DFD9BB;
+}
+
+.blog-container{
+  max-width: 300px;
+}
+.web-container{
+  max-width: 300px;
+}
 
 /* a{
   color: var(--bs-link-color);
@@ -207,10 +244,10 @@ a{
     font-size: 2rem;
   }
   p{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   .stylebtn{
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   h3{
     font-size: 1.5rem;
@@ -219,10 +256,16 @@ a{
     font-size: 1.25rem;
   }
   .footer p{
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
   .form-text label{
     font-size: 1.1rem;
+  }
+  .blog-container{
+    max-width: 500px;
+  }
+  .web-container{
+    max-width: 500px;
   }
 }
 
@@ -234,6 +277,15 @@ a{
   .form-text label{
     font-size: 1.5rem;
   }
+  .blog-container{
+    max-width: 700px;
+  }
+  .web-container{
+    max-width: 700px;
+  }
+  .gallery-container{
+    max-width: 700px;
+  }
 }
 
 /* ----------BIG LAPTOPS AND DESKTOP (from 993px to 1200px)----------  */
@@ -241,6 +293,16 @@ a{
   body {
     /* background-color: #344434; */
   }
+ .blog-container{
+  max-width: 900px;
+}
+.web-container{
+  max-width: 900px;
+}
+.gallery-container{
+  max-width: 900px;
+}
+ 
 }
 
 /* ----------DESKTOPS, LAPTOPS AND BIG SCREENS (from 1200px and on)----------  */
@@ -248,5 +310,23 @@ a{
 @media (min-width:1200px) {
   body{
     /* background-color: slategrey; */
+  }
+  .banner h1{
+    font-size: 6rem;
+  }
+  .footer-logo{
+    scale: 50%;
+  }
+  .blog-container{
+    max-width: 1200px;
+  }
+  .web-container{
+    max-width: 1200px;
+  }
+  .gallery-container{
+    max-width: 1000px;
+  }
+  .btn-container{
+    max-width: 600px;
   }
 }
