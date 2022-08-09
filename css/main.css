@@ -219,6 +219,18 @@ a{
   padding: 5px;
   font-weight: bolder;
 }
+.main-logo img{
+  animation: ani2 5s ease-out forwards;
+}
+.main-logo img{
+  opacity: 0;
+  margin: 0;
+}
+@keyframes ani2{
+  100%{
+    opacity: 1;
+  }
+}
 /* ----------CELLPHONES (from 1px to 576px)----------  */
 
 /* ----------TABLETS (from 577px to 768px)----------  */
@@ -289,6 +301,7 @@ a{
 .gallery-container{
   max-width: 900px;
 }
+
 }
 /* ----------DESKTOPS, LAPTOPS AND BIG SCREENS (from 1200px and on)----------  */
 @media (min-width:1200px) {
@@ -315,23 +328,5 @@ a{
   }
   .gallery-sample{
     max-width: 1200px;
-  }
-  .main-logo h1{
-    transform: scale(2);
-  }
-  .main-logo h4{
-    transform: scale(1.5);
-  }
-  .main-logo img{
-    animation: ani2 5s ease-out forwards;
-  }
-  .main-logo img{
-    opacity: 0;
-    margin: 0;
-  }
-  @keyframes ani2{
-    100%{
-      opacity: 1;
-    }
   }
 }
